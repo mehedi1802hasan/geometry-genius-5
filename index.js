@@ -70,7 +70,7 @@ document.getElementById('five-btn').addEventListener('click',function(){
     const titleField=document.getElementById('five-name').innerText;
     const pField=document.getElementById('five-p-field').innerText;
     const bField=document.getElementById('five-b-field').innerText;
-    const areaField=pField * bField;
+    const areaField=0.5 * pField * bField;
   getTable(titleField,areaField);
 
 })
@@ -79,7 +79,7 @@ document.getElementById('six-btn').addEventListener('click',function(){
     const titleField=document.getElementById('six-name').innerText;
     const aField=document.getElementById('six-a-field').innerText;
     const bField=document.getElementById('six-b-field').innerText;
-    const area=aField * bField;
+    const area= 3.1416 * aField * bField;
     const areaField=area.toFixed(2);
   getTable(titleField,areaField);
 
